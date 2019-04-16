@@ -9,9 +9,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
+
+import com.example.testrelationroom.Data.PhoneNumbers;
+import com.example.testrelationroom.Entities.Person;
+import com.example.testrelationroom.Presenter.PersonAdapter;
+import com.example.testrelationroom.Usecases.AddPerson;
+import com.example.testrelationroom.ViewModel.PersonViewModel;
 
 import java.util.List;
 

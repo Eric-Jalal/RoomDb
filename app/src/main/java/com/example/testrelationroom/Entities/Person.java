@@ -1,4 +1,4 @@
-package com.example.testrelationroom;
+package com.example.testrelationroom.Entities;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;

@@ -1,9 +1,13 @@
-package com.example.testrelationroom;
+package com.example.testrelationroom.Data;
 
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
+
+import com.example.testrelationroom.Entities.Person;
+import com.example.testrelationroom.Usecases.PhoneDao;
+import com.example.testrelationroom.Usecases.PersonDao;
 
 @Database(entities = {Person.class, PhoneNumbers.class}, version = 2)
 public abstract class PersonDatabase extends RoomDatabase {

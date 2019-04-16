@@ -1,8 +1,14 @@
-package com.example.testrelationroom;
+package com.example.testrelationroom.Repositories;
 
 import android.app.Application;
 import android.arch.lifecycle.LiveData;
 import android.os.AsyncTask;
+
+import com.example.testrelationroom.Data.PersonDatabase;
+import com.example.testrelationroom.Entities.Person;
+import com.example.testrelationroom.Usecases.PhoneDao;
+import com.example.testrelationroom.Data.PhoneNumbers;
+import com.example.testrelationroom.Usecases.PersonDao;
 
 import java.util.List;
 

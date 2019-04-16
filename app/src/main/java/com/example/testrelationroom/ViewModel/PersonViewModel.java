@@ -1,9 +1,13 @@
-package com.example.testrelationroom;
+package com.example.testrelationroom.ViewModel;
 
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.LiveData;
 import android.support.annotation.NonNull;
+
+import com.example.testrelationroom.Entities.Person;
+import com.example.testrelationroom.Repositories.PersonRepository;
+import com.example.testrelationroom.Data.PhoneNumbers;
 
 import java.util.List;
 

@@ -1,8 +1,10 @@
-package com.example.testrelationroom;
+package com.example.testrelationroom.Data;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.ForeignKey;
 import android.arch.persistence.room.PrimaryKey;
+
+import com.example.testrelationroom.Entities.Person;
 
 @Entity(tableName = "phone_table",
         foreignKeys = @ForeignKey(
